@@ -93,7 +93,7 @@ const websiteProducts = [
     id: 11,
     productType: "Smartwatches",
     productName: "Smartwatch 2.0 LTE Wifi Waterproof",
-    productImage: "/img/smartwatches-resized.png",
+    productImage: "/img/watch-300x300.png",
     oldProductPrice: "$725.00",
     productPrice: "$700.00",
   },
@@ -149,8 +149,6 @@ const cartLength = document.getElementById("cart-length");
 let cartlength = 0;
 window.addEventListener("DOMContentLoaded", () => {
   displayProducts(websiteProducts);
-  // productToStorage(cartArray)
-  // addProduct()
 });
 
 function displayProducts(product) {
@@ -239,10 +237,10 @@ function displayProducts(product) {
   
           <div class="info-msg">
             <div>
-              <button><i class="fa fa-repeat"></i>Compare</button>
+              <button><i class="fa fa-repeat blue"></i>Compare</button>
             </div>
             <div>
-              <button><i class="fas fa-heart"></i>Add to Wishlist</button>
+              <button><i class="fas fa-heart red"></i>Add to Wishlist</button>
             </div>
           </div>
           <span class="fas fa-cart-arrow-down" id="shopping-cart"></span>
@@ -277,36 +275,45 @@ function productToStorage() {
           <h4 class="name blue">${item.name}</h4>
           <p class="price danger">${item.amount}</p>
         </div>
-        <i class="bi bi-x-lg"></i>
+        <i class="bi bi-x-lg delete-icon" data-item"${index}"></i>
       </div>
     `;
-    const cancelItem = document.querySelectorAll('.bi.bi-x-lg')
-    cancelItem.forEach((element, idx)=> {
-      element.addEventListener('click', (e)=> {
-        // console.log(item)
-        cartArray.splice(0, index)
-        localStorage.setItem('product', JSON.stringify(cartArray))
-        // productToStorage()
-      })
-    })
 
     cartlength = cartArray.length;
     cartLength.innerHTML = cartlength;
     checkLength();
 
     console.log(cartlength);
-
-    // cartArray.length === 0 ? cartStorage.innerHTML = "Nothing to show here" &&  cartLength = 0 :
   });
 }
 
 productToStorage();
 
+function removeElement(e){
+  if(e.target.classList.contains('delete-icon')) {
+    const index = e.target.getAttribute('data-index')
+    cartArray.splice(index, 1)
+
+    productToStorage()
+    localStorage.setItem("product", JSON.stringify(cartArray))
+    checkLength()
+    deleteTask()
+  }
+}
+cartStorage.addEventListener('click', removeElement)
+function deleteTask() {
+  const cancelItem = document.querySelectorAll(".bi.bi-x-lg");
+  cancelItem.forEach((element, idx) => {
+    element.addEventListener('click', removeElement)
+  });
+}
+
+deleteTask()
+ 
 function checkLength() {
   if (cartArray.length === 0) {
-    // cartLength.innerHTML = 0
     cartLength.style.opacity = 0;
-    cartStorage.innerHTML = `<p>You have not saved anything to cart</p>`;
+    cartStorage.innerHTML = `<p style="font-weight: bold">Add items to cart...</p>`;
   } else {
     cartLength.style.opacity = 1;
   }
