@@ -277,9 +277,18 @@ function productToStorage() {
           <h4 class="name blue">${item.name}</h4>
           <p class="price danger">${item.amount}</p>
         </div>
-        <i class=""></i>
+        <i class="bi bi-x-lg"></i>
       </div>
     `;
+    const cancelItem = document.querySelectorAll('.bi.bi-x-lg')
+    cancelItem.forEach((element, idx)=> {
+      element.addEventListener('click', (e)=> {
+        // console.log(item)
+        cartArray.splice(0, index)
+        localStorage.setItem('product', JSON.stringify(cartArray))
+        // productToStorage()
+      })
+    })
 
     cartlength = cartArray.length;
     cartLength.innerHTML = cartlength;
