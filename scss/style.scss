@@ -1,0 +1,65 @@
+// Colors
+$clr-white-bg: #fff;
+$clr-list-bg: #212121;
+$clr-dark-bg-color: #181818;
+
+$yellow: #fed700;
+$card-text: #d9d9d9;
+
+$font: 'poppins', sans-serif;
+
+:root {
+  
+}
+* {
+  font-family: $font;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $clr-dark-bg-color;
+}
+
+.container {
+  .wrapper {
+    .navbar {
+      background-color: $yellow;
+    }
+    .products {
+      .cards {
+        display: flex;
+        overflow: auto;
+        width: 78vw;
+        padding: 10px 30px;
+        margin: auto;
+
+        gap: 50px;
+        .card{
+          border: 0 !important;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          cursor: pointer;
+          background-color: $clr-list-bg;
+          color: $card-text;
+          height: 110px;
+          width: 100%;
+          margin: auto;
+          padding: 20px 40px;
+          font-size: 15px;
+          
+          // background-color: red;
+          .card-left {
+            text-transform: uppercase;
+            width: 130px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  
+}

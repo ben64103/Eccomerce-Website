@@ -1,0 +1,80 @@
+ <!-- <div class="product">
+              <small class="p-name gray-text">Audio Speakers</small>
+              <h4 class="type white">Wireless Audio System<br>Multiroom 360</h4>
+  
+              <img src="./img/WirelessSound-300x300.png" alt="" class="prod-type-img">
+              <div class="price-list">
+                <small class="gray-text line-t">$2, 999.00</small>
+                <h2 class="clr-blue">$2, 2990.00</h2>
+              </div>
+            </div>
+            <div class="product">
+              <small class="p-name gray-text">Audio Speakers</small>
+              <h4 class="type white">Wireless Audio System<br>Multiroom 360</h4>
+  
+              <img src="./img/apptablet-300x300.png" alt="" class="prod-type-img">
+              <div class="price-list">
+                <small class="gray-text line-t">$2, 999.00</small>
+                <h2 class="clr-blue">$2, 2990.00</h2>
+              </div>
+            </div>
+            <div class="product">
+              <small class="p-name gray-text">Audio Speakers</small>
+              <h4 class="type white">Wireless Audio System<br>Multiroom 360</h4>
+  
+              <img src="./img/uniheadphone-300x300.png" alt="" class="prod-type-img">
+              <div class="price-list">
+                <small class="gray-text line-t">$2, 999.00</small>
+                <h2 class="clr-blue">$2, 2990.00</h2>
+              </div>
+            </div>
+            <div class="product">
+              <small class="p-name gray-text">Audio Speakers</small>
+              <h4 class="type white">Wireless Audio System<br>Multiroom 360</h4>
+  
+              <img src="./img/GoldPhone-1-300x300.png" alt="" class="prod-type-img">
+              <div class="price-list">
+                <small class="gray-text line-t">$2, 999.00</small>
+                <h2 class="clr-blue">$2, 2990.00</h2>
+              </div>
+            </div>
+            <div class="product">
+              <small class="p-name gray-text">Audio Speakers</small>
+              <h4 class="type white">Wireless Audio System<br>Multiroom 360</h4>
+  
+              <img  src="./img/camera2-300x300.png" alt="" class="prod-type-img">
+              <div class="price-list">
+                <small class="gray-text line-t">$2, 999.00</small>
+                <h2 class="clr-blue">$2, 2990.00</h2>
+              </div>
+            </div>
+            <div class="product">
+              <small class="p-name gray-text">Audio Speakers</small>
+              <h4 class="type white">Wireless Audio System<br>Multiroom 360</h4>
+  
+              <img  src="./img/printer-300x300.png" alt="" class="prod-type-img">
+              <div class="price-list">
+                <small class="gray-text line-t">$2, 999.00</small>
+                <h2 class="clr-blue">$2, 2990.00</h2>
+              </div>
+            </div>
+            <div class="product">
+              <small class="p-name gray-text">Audio Speakers</small>
+              <h4 class="type white">Wireless Audio System<br>Multiroom 360</h4>
+  
+              <img  src="./img/game1-300x300.png" alt="" class="prod-type-img">
+              <div class="price-list">
+                <small class="gray-text line-t">$2, 999.00</small>
+                <h2 class="clr-blue">$2, 2990.00</h2>
+              </div>
+            </div>
+            <div class="product">
+              <small class="p-name gray-text">Audio Speakers</small>
+              <h4 class="type white">Wireless Audio System<br>Multiroom 360</h4>
+  
+              <img  src="./img/cam4k-300x300.png" alt="" class="prod-type-img">
+              <div class="price-list">
+                <small class="gray-text line-t">$2, 999.00</small>
+                <h2 class="clr-blue">$2, 2990.00</h2>
+              </div>
+            </div> -->
