@@ -6,15 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
 
-  <!-- Uncomment the font awesome cdn link below -->
 
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./scss/style.css" />
   <link rel="stylesheet" href="./css/classes.css" />
-  <link rel="stylesheet" href="./icons-main/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400&display=swap"
+    rel="stylesheet">
+
 </head>
 
 <body>
@@ -68,7 +72,8 @@
           <div class="middle flex">
             <i class="fas fa-bars"></i>
             <div class="inputs">
-              <input type="text" class="input" id="searchInp" placeholder="Search for Products">
+              <input type="text" class="input" id="searchInp" placeholder="Search for Products"
+                onkeydown="searchProduct()">
               <select name="product_cat" id="electro_header_search_categories_dropdown" class="postform resizeselect">
                 <option value="0" selected="selected">All Categories</option>
                 <option class="level-0" value="accessories">Accessories</option>
@@ -236,4 +241,5 @@
   <script src="./js/script.js"></script>
   <script src="./js/effects.js"></script>
 </body>
+
 </html>

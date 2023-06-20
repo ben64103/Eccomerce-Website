@@ -354,7 +354,7 @@ h3 {
 
 .cart {
   /* width: 350px; */
-  width: 0;
+  width: 0px;
   background-color: #fed700;
   height: 70vh;
   position: fixed;

@@ -192,7 +192,9 @@ function displayProducts(product) {
         amount: product[index].productPrice,
       };
 
+
       cartArray.push(productItem);
+      prodInfo.innerHTML = ''
 
       // displayProducts(websiteProducts);
       localStorage.setItem("product", JSON.stringify(cartArray));
@@ -216,6 +218,7 @@ function displayProducts(product) {
         type: product[index].productType,
       };
 
+      prodInfo.innerHTML = ''
       prodInfo.innerHTML = `
       <i class="fas fa-times " id="cancel-info"></i>
       <div class="info-ab">
@@ -223,7 +226,7 @@ function displayProducts(product) {
   
         <div class="about-info">
           <div class="ab-names">
-            <h4 class="ab-type">${productInfo.type}s</h4>
+            <h4 class="ab-type">${productInfo.type}</h4>
             <h1 class="ab-name">${productInfo.name}</h1>
           </div>
           <div class="prices">
@@ -326,3 +329,11 @@ function deleteFromCart(index) {
   cartArray.slice(0, index);
 }
 
+
+function searchProduct() {
+  let query = searchInp.value.toLowerCase()
+  const products = websiteProducts.filter(item => item.productType.toLowerCase().includes(query))
+  console.log(products)
+
+  displayProducts(products)
+}
