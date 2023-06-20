@@ -325,3 +325,4 @@ checkLength();
 function deleteFromCart(index) {
   cartArray.slice(0, index);
 }
+
