@@ -11,6 +11,9 @@
   align-items: center;
   gap: 10px;
 }
+.container {
+  width
+}
 .container .wrapper .main-nav {
   background-color: #fed700;
   display: flex;
@@ -29,7 +32,7 @@
   align-items: center;
   justify-content: space-between;
   color: #ccc;
-  width: 100%;
+  width: 90%;
   margin: auto;
 }
 .container .wrapper .product-Listing {

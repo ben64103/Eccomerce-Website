@@ -32,9 +32,6 @@ git clone https://github.com/your-username/e-commerce.git
 
 To start the application, run the following command:
 
-```shell
-npm start
-```
 
 Open your browser and visit `https://ben64103.github.io/eccomerce-website/` to access the application.
 
