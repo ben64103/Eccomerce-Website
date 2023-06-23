@@ -12,7 +12,7 @@
   gap: 10px;
 }
 .container {
-  width
+  width: 100%;
 }
 .container .wrapper .main-nav {
   background-color: #fed700;
