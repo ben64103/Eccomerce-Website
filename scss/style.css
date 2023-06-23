@@ -14,7 +14,7 @@
 .container {
   width: 100%;
 }
-.container .wrapper .main-nav {
+/* .container .wrapper .main-nav {
   background-color: #fed700;
   display: flex;
   align-items: center;
@@ -26,15 +26,15 @@
   z-index: 4;
   width: 100%;
   box-shadow: 3px 1px 3px 3px #333;
-}
-.container .wrapper .main-nav .navbar{
+} */
+/* .container .wrapper .main-nav .navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: #ccc;
   width: 90%;
   margin: auto;
-}
+} */
 .container .wrapper .product-Listing {
   position: absolute;
   z-index: 1;
