@@ -32,6 +32,4 @@ Open your browser and visit `https://ben64103.github.io/eccomerce-website/` to a
 ![Screenshot 2](mdimg/ecc.png)
 ![Screenshot 3](mdimg/ecc3.png)
 ![Screenshot 4](mdimg/ecc4.png)
-```
 
-Please ensure that you replace `path/to/logo.svg` with the actual path to your SVG logo, and make sure the image files are located in the `mdimg` directory. Update the image paths accordingly if needed.
