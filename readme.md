@@ -24,6 +24,19 @@ This project is an e-commerce application that allows users to browse and purcha
 git clone https://github.com/your-username/e-commerce.git
 ```
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+1. Configure the environment variables. Rename the `.env.example` file to `.env` and update the values accordingly.
+
+## Usage
+
+To start the application, run the following command:
+
+
+=======
+>>>>>>> 889f5e5a9e40e4375d0c5e0908f359326ce50468
+>>>>>>> master
 Open your browser and visit `https://ben64103.github.io/eccomerce-website/` to access the application.
 
 ## Screenshots
@@ -32,3 +45,7 @@ Open your browser and visit `https://ben64103.github.io/eccomerce-website/` to a
 ![Screenshot 2](mdimg/ecc.png)
 ![Screenshot 3](mdimg/ecc3.png)
 ![Screenshot 4](mdimg/ecc4.png)
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
