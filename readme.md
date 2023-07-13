@@ -21,7 +21,7 @@ This project is an e-commerce application that allows users to browse and purcha
 1. Clone the repository:
 
 ```shell
-git clone https://github.com/your-username/e-commerce.git
+git clone https://github.com/ben64103/e-commerce.git
 ```
 
 1. Configure the environment variables. Rename the `.env.example` file to `.env` and update the values accordingly.
