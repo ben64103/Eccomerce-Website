@@ -381,10 +381,13 @@ h3 {
   width: 4px;
 }
 
+
 .storage-product {
   /* display: flex; */
   /* gap: 30px; */
 }
+
+ 
 .st-prod {
   display: flex;
   align-items: center;
