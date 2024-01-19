@@ -23,10 +23,6 @@ This project is an e-commerce application that allows users to browse and purcha
 ```shell
 git clone https://github.com/your-username/e-commerce.git
 ```
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 1. Configure the environment variables. Rename the `.env.example` file to `.env` and update the values accordingly.
 
 ## Usage
@@ -45,7 +41,3 @@ Open your browser and visit `https://ben64103.github.io/eccomerce-website/` to a
 ![Screenshot 2](mdimg/ecc.png)
 ![Screenshot 3](mdimg/ecc3.png)
 ![Screenshot 4](mdimg/ecc4.png)
-<<<<<<< HEAD
-=======
-
->>>>>>> master
