@@ -158,7 +158,6 @@
   right: -60%;
   top: -10px;
   background-color: red;
-  /* padding: 1px 8px; */
   height: 20px;
   width: 20px;
   display: flex;
@@ -170,19 +169,13 @@
   color: white;
 }
 .container .wrapper .products .cards {
-  /* display: flex; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   overflow: hidden;
-  /* width: 78vw;*/
-  /* width: 100vw; */
   padding: 20px 0;
-  /* margin: auto; */
-  /* width: 3333px; */
   height: auto;
   justify-content: space-between;
   gap: 50px;
-  /* background-color: red */
 }
 .container .wrapper .products .cards .card {
   border: 0 !important;
@@ -194,8 +187,6 @@
   color: #d9d9d9;
   height: 110px;
   width: 300px;
-  /* width:30%; */
-  /* margin: 0 10px auto; */
   flex: 0.5;
   padding: 20px 40px;
   font-size: 15px;
