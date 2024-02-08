@@ -2,7 +2,7 @@
 
 # E-Commerce Project
 
-![Project Logo]()
+<!-- ![Project Logo]() -->
 
 A simple e-commerce project showcasing various products.
 
@@ -24,8 +24,6 @@ This project is an e-commerce application that allows users to browse and purcha
 git clone https://github.com/ben64103/e-commerce.git
 ```
 
-1. Configure the environment variables. Rename the `.env.example` file to `.env` and update the values accordingly.
-
 ## Usage
 
 To start the application, run the following command:
@@ -35,7 +33,7 @@ Open your browser and visit `https://ben64103.github.io/eccomerce-website/` to a
 
 ## Screenshots
 
-![Screenshot 1](mdimg/ecc1.png)
-![Screenshot 2](mdimg/ecc.png)
-![Screenshot 3](mdimg/ecc3.png)
-![Screenshot 4](mdimg/ecc4.png)
+![Screenshot 1](mdImages/ecc1.png)
+![Screenshot 2](mdImages/ecc.png)
+![Screenshot 3](mdImages/ecc3.png)
+![Screenshot 4](mdImages/ecc4.png)
